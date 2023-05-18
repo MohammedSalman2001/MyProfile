@@ -209,6 +209,8 @@
 /*============================Media query========================*/
 
 @media all and (max-width: 376px) {
+
+    /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
     }
@@ -310,23 +312,14 @@
     }
 
     .font-page-outer>a {
-        position: relative;
-        text-decoration: none;
-        color: white;
-        background-color: #FE500A;
+
         width: 142px;
         height: 40px;
         top: 110px;
         left: 110px;
-        display: flex;
-        align-content: center;
-        justify-content: center;
-        border-radius: 5px;
-        -webkit-box-shadow: 2px 2px 5px 9px rgba(0,0,0,0.14);
-        box-shadow: 2px 2px 5px 9px rgba(0,0,0,0.14);
-        transition: 1s;
-        transition-property: all;
+
     }
+    /*------------slide-context*------------------*/
 
 }
 
