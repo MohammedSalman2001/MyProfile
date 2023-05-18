@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb{
 }
 main{
     /*border: 5px solid red;*/
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
 }
 
 
