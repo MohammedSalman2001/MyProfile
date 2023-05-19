@@ -67,6 +67,32 @@
     margin-top: -20px;
 }
 
-.education-wrapper-inner:hover{
+@media all and (max-width: 376px) {
+    .education-wrapper{
+        /*border: 2px solid red;*/
+    }
+
+    .education-wrapper {
+
+        height: 1001px;
+        /* border: 2px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .education-wrapper-inner {
+        height: 208px;
+        width: 262px;
+        margin-top: 5px;
+        top: 67px;
+    }
+   .d4{
+       top: 12px;
+       height: 180px;
+       margin-top: 47px;
+   }
+
 
 }

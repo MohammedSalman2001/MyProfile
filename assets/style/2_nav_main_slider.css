@@ -236,6 +236,8 @@
     .topLine{
         top: 10px;
         font-size: 14px;
+        left: 0;
+        margin-left: 60px;
     }
     .topLine::after{
         top: -2px;
@@ -243,10 +245,14 @@
     .font-page-outer>h1{
         top: 10px;
         font-size: 18px;
+        left: 0;
+        margin-left: 60px;
     }
     .font-page-outer>h3{
         top: 10px;
         font-size: 16px;
+        left: 0;
+        margin-left: 60px;
     }
     .social-outer{
         right: 32px;
