@@ -321,3 +321,33 @@
         margin: 7px 11px;
     }
 }
+
+@media all and (min-width: 426px) and (max-width: 769px) {
+
+
+    .skills-Wrapper-outer{
+        left: 85px;
+        width: 83%;
+        height: 77%;
+    }
+    .skills-technology {
+
+        width: 99%;
+    }
+    .tool-img1{
+        width: 95px;
+    }
+    .bar1{
+        width: 40%;
+        left: 10px;
+    }
+    .bar2{
+        width: 40%;
+        left: 367px;
+    }
+
+    .skills-tools>h4 {
+
+        left: 283px;
+    }
+}

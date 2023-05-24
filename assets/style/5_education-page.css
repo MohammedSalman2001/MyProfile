@@ -125,3 +125,31 @@
     }
 
 }
+
+@media all and (min-width: 426px) and (max-width: 769px) {
+
+    .education-wrapper{
+        height: 601px;
+    }
+    .education-wrapper-inner{
+        position: absolute;
+        height: 186px;
+    }
+    .d1{
+        left: 81px;
+        top: 112px;
+    }
+
+    .d2{
+        right:81px;
+        top: 112px;
+    }
+    .d3{
+        left: 81px;
+        bottom: 98px;
+    }
+    .d4{
+        right: 81px;
+        bottom: 98px;
+    }
+}

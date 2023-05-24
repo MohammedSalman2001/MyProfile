@@ -490,5 +490,72 @@
     }
 }
 
+/*================================== 768->Tablet ================================== */
+@media all and (min-width: 426px) and (max-width: 769px) {
+    /*------------slide-context*------------------*/
+    .nav-main-slider{
+        /*border: 2px solid red;!important;*/
+    }
+    .profile-img{
+        /*position: absolute;*/
+        /*border: 1px solid black;*/
+        width: 200px;
+        height: 200px;
+        top: 193px;
+        right: 117px;
+
+    }
+    .font-page-outer{
+        height: 300px;
+        width: 370px;
+        /*border: 2px solid violet;*/
+        bottom: 212px;
+        top:370px;
+        left: 8px;
+
+    }
+
+    .topLine{
+        top: 10px;
+        font-size: 14px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .topLine::after{
+        top: -2px;
+    }
+    .font-page-outer>h1{
+        top: 10px;
+        font-size: 23px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .font-page-outer>h3{
+        top: 10px;
+        font-size: 16px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .font-page-outer>a {
+
+        width: 142px;
+        height: 40px;
+        top: 43px;
+        left: 110px;
+
+    }
+    .font-page-outer>a>h6{
+        font-size: 15px;
+    }
+
+    .nav>li>a {
+        color: white;
+        text-decoration: none;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+}
+
 
 

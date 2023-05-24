@@ -276,3 +276,10 @@ button{
     }
 }
 
+@media all and (min-width: 426px) and (max-width: 769px) {
+
+
+    .contact-wrapper-outer{
+        left: 38px;
+    }
+}
