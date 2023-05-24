@@ -210,10 +210,10 @@
 
 @media all and (max-width: 320px) {
     .nav-main-slider{
-        border: 2px solid red;!important;
+        /*border: 2px solid red;!important;*/
     }
     .profile-img{
-      border: 1px solid red!important;
+      /*border: 1px solid red!important;*/
         left: 46px;
     }
     .social-outer {
@@ -369,5 +369,126 @@
     /*------------slide-context*------------------*/
 
 }
+
+/*================================== 425->Mobile -L ================================== */
+@media all and (min-width: 376px) and (max-width: 426px) {
+
+    /*------------slide-context*------------------*/
+    .nav-main-slider{
+        /*border: 2px solid red;!important;*/
+    }
+    .profile-img{
+        /*position: absolute;*/
+        /*border: 1px solid black;*/
+        width: 200px;
+        height: 200px;
+        top: 98px;
+        right: 117px;
+
+    }
+    .font-page-outer{
+        height: 300px;
+        width: 300px;
+        /*border: 2px solid violet;*/
+        bottom: 212px;
+        top:456px;
+        left: 8px;
+
+    }
+
+    .topLine{
+        top: 10px;
+        font-size: 14px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .topLine::after{
+        top: -2px;
+    }
+    .font-page-outer>h1{
+        top: 10px;
+        font-size: 18px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .font-page-outer>h3{
+        top: 10px;
+        font-size: 16px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .social-outer{
+        right: 32px;
+        width: 280px;
+        /*border: 1px solid green;*/
+        position: absolute;
+        top:410px;
+        height: 70px;
+
+    }
+    .social-inner-wrap {
+
+        right: 0;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        /*border: 2px solid black;*/
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        /*border-top-left-radius: 0;*/
+        /*border-bottom-left-radius: 0;*/
+        border-radius: 100%;
+        -webkit-box-shadow: 5px 1px 15px 8px rgba(37,24,255,0.49);
+        box-shadow: 5px 1px 15px 8px rgba(37,24,255,0.49);
+    }
+    .social-inner-wrap:nth-child(1){
+        top: 5px;
+        left: 5px;
+    }
+    .social-inner-wrap:nth-child(2){
+        top: 5px;
+        left: 60px;
+    }
+    .social-inner-wrap:nth-child(3){
+        top: 5px;
+        left: 115px;
+    }
+    .social-inner-wrap:nth-child(4){
+        top: 5px;
+        left: 169px;
+
+    }
+    .social-inner-wrap>span{
+        display: none;
+    }
+
+
+
+    .social-inner-wrap>i {
+        position: relative;
+        top: 13px !important;
+        left: 14px;
+        font-size: 24px;
+    }
+    .social-inner-wrap:hover {
+        right: 0px;
+        background-color: transparent;
+        transition-property: none;
+        transition-duration: 0s;
+        border-color: #FE500A;
+    }
+
+    .font-page-outer>a {
+
+        width: 142px;
+        height: 40px;
+        top: 110px;
+        left: 110px;
+
+    }
+}
+
 
 

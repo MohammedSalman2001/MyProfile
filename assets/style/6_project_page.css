@@ -171,3 +171,35 @@
         bottom: 130px;
     }
 }
+@media all and (min-width: 376px) and (max-width: 426px) {
+    .project-wrapper{
+        /*border:1px solid red;*/
+        height: 485px;
+    }
+    .project-wrapper-inner{
+        /*border: 2px solid black;*/
+        width: 3%;
+        height: 14%;
+        top: -111px;
+        flex-direction: column;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+    }
+    .box{
+        width: 143px;
+        height: 73px;
+    }
+    .box>span{
+        width: 90%;
+        height:92%;
+        transform: rotateY(calc(var(--i) * 45deg))translateZ(150px);
+    }
+    .more-view{
+        width: 140px;
+        height: 33px;
+        bottom: 130px;
+    }
+}

@@ -224,3 +224,82 @@
         font-size: 8px;
     }
 }
+
+@media all and (min-width: 376px) and (max-width: 426px) {
+    .about-wrapper{
+        /*border: 2px solid black;*/
+    }
+    .about-name>h1{
+        font-size: 33px;
+    }
+    .about-wrapper-outer{
+        /*border: 2px solid green;*/
+        left: 37px;
+        flex-direction: column;
+    }
+    .about-inner{
+        /*border: 2px solid black;*/
+    }
+    .about-inner>img{
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 21px;
+    }
+
+    .about-inner-out {
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 50px;
+    }
+    .name {
+        top: 9px;
+        padding-left: 13px;
+        font-size: 11px;
+        font-weight: bold;
+        width: 100%;
+        left: 0;
+    }
+    .from {
+        position: relative;
+        top: 4px;
+        padding-left: 13px;
+        font-weight: bold;
+        color: black;
+        font-size: 9px;
+        width: 100%;
+        left: 0;
+    }
+
+    .se {
+        padding-left: 13px;
+        top: -10px;
+        font-weight: bold;
+        font-size: 11px;
+        width: 100%;
+        left: 0;
+    }
+    .year {
+
+        top: -15px;
+        padding-left: 13px;
+        width: 100%;
+        font-size: 9px;
+        font-weight: bold;
+        left: 0;
+
+    }
+    .hi{
+        top: -22px;
+    }
+    .desMe1{
+        top:-27px;
+        font-size: 8px;
+    }
+    .desMe2{
+        top:-26px;
+        font-size: 8px;
+    }
+
+}
