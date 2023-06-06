@@ -236,3 +236,20 @@
         bottom: 130px;
     }
 }
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .heading-name{
+        height: 81px;
+    }
+    .project-wrapper-inner {
+        position: relative;
+        width: 80%;
+        height: 65%;
+        /*border: 1px solid red;*/
+        top: 89px;
+        left: 88px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -335,3 +335,34 @@
     }
 
 }
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .about-wrapper-outer {
+        /*border: 1px solid red;*/
+        left: 94px;
+        width: 75%;
+        top: 100px;
+    }
+
+    .about-name {
+        height: 76px;
+    }
+
+    .about-inner {
+        margin-left: 16px;
+    }
+
+    .about-inner > img {
+        /*border: 5px solid green;*/
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+    }
+
+    .about-inner-out {
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+}

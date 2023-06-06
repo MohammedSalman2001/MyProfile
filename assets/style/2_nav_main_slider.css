@@ -1,4 +1,9 @@
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 .nav-main-slider{
     position: relative;
     background: url("../image/BackRoundImage.jpg")center;
@@ -10,20 +15,21 @@
 
 
 }
+/*
 .nav-outer{
     position: fixed;
     top:0px;
-    /* bottom: 0;*/
+    !* bottom: 0;*!
     width: 100%;
     height: 80px;
     background-color: #0064DE;
     display: flex;
-    /*border: 1px solid red;*/
+    !*border: 1px solid red;*!
     z-index: 100;
 }
 .nav-bar-context{
     flex: 1;
-    /*border: 5px solid green;*/
+    !*border: 5px solid green;*!
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,15 +42,15 @@
 }
 .nav>li{
 
-    /*border-right: 1px solid white;*/
+    !*border-right: 1px solid white;*!
 
     margin-right:40px ;
-    /*padding: 5px 15;*/
+    !*padding: 5px 15;*!
     border-bottom: 2px solid transparent;
     transition: 1s ease-in-out;
 
 
-    /*  border: 1px solid white;*/
+    !*  border: 1px solid white;*!
 }
 
 .nav>li:hover{
@@ -68,6 +74,65 @@
 }
 
 
+*/
+
+header{
+    background-color: #0064DE;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+li{
+    list-style: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+    transition: 0.7s ease;
+}
+
+.navbar{
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px ;
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-branding{
+    font-size: 2rem;
+}
+
+.nav-link:hover{
+    color: #FE500A;
+}
+
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+.barr{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
 
 
 
@@ -245,6 +310,44 @@
         top: 11px !important;
         left: 162px;
     }
+
+    /*nav bar*/
+    .hamburger{
+        display: block;
+
+    }
+
+    .hamburger.active .barr:nth-child(2){
+        opacity: 0;
+    }
+    .hamburger.active .barr:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .barr:nth-child(3){
+        transform: translateY( -8px) rotate(-45deg);
+    }
+
+    .nav-menu{
+        position: fixed;
+        left: -100% ;
+        top: 70px;
+        flex-direction: column;
+        background-color: #FE500A;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 60;
+     }
+
+    .nav-item{
+        margin: 16px 0;
+    }
+   .nav-menu.active{
+    left: 0;
+   }
+
+
+    /*nav bar*/
 
 
 }
@@ -491,7 +594,7 @@
 }
 
 /*================================== 768->Tablet ================================== */
-@media all and (min-width: 426px) and (max-width: 769px) {
+@media all and (min-width: 426px) and (max-width: 768px) {
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
@@ -555,6 +658,60 @@
         font-weight: bold;
     }
 
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px)   {
+    .nav-main-slider{
+        /*border: 2px solid red;!important;*/
+    }
+    .profile-img{
+        width: 350px;
+        height: 350px;
+        top: 147px;
+
+    }
+    .font-page-outer{
+
+        width: 480px;
+        /*border: 2px solid violet;*/
+        bottom: 212px;
+        top:442px;
+        left: 8px;
+
+    }
+
+    .topLine{
+        top: 10px;
+        font-size: 16px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .topLine::after{
+        top: -2px;
+    }
+    .font-page-outer>h1{
+        top: 10px;
+        font-size: 28px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .font-page-outer>h3{
+        top: 10px;
+        font-size: 18px;
+        left: 0;
+        margin-left: 60px;
+    }
+    .font-page-outer>a {
+
+        width: 142px;
+        height: 40px;
+        top: 43px;
+        left: 110px;
+
+    }
+    .font-page-outer>a>h6{
+        font-size: 15px;
+    }
 }
 
 

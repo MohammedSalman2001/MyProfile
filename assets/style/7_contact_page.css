@@ -160,7 +160,7 @@ button{
 
     @media all and (min-width: 320px) and (max-width: 376px) {
     .contact-wrapper{
-        border: 1px solid red;
+        /*border: 1px solid red;*/
     }
     .contact-wrapper {
         width: 100%;
@@ -281,5 +281,19 @@ button{
 
     .contact-wrapper-outer{
         left: 38px;
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    .contact-wrapper-outer{
+        top: 87px;
+        left: 106px;
+    }
+
+    .contact-wrapper-inner {
+        flex: 1;
+        border: 2px solid black;
+        width: 100%;
+        height: 100%;
     }
 }
