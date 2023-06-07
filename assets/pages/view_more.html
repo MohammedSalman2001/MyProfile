@@ -12,11 +12,46 @@
     <title>Project And Assignment</title>
 </head>
 <body>
+
+
+<!--nav-->
+<header>
+    <nav class="navbar">
+        <a href="#" class="nav-branding">Devep.</a>
+
+        <ul class="nav-menu-1">
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">Home</a>
+            </li>
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">About</a>
+            </li>
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">Skills</a>
+            </li>
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">Project</a>
+            </li>
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">service</a>
+            </li>
+            <li class="nav-item-1">
+                <a href="#" class="nav-link-1">contact </a>
+            </li>
+        </ul>
+
+        <div class="hamburger">
+            <span class="barr"></span>
+            <span class="barr"></span>
+            <span class="barr"></span>
+        </div>
+    </nav>
+
+</header>
+<!--nav-->
 <main>
 
-    <!--nav-->
 
-    <!--nav-->
 
 
     <!--section-main-page-->
@@ -309,5 +344,22 @@
 
 </footer>
 <!--footer-->
+
+<script>
+    console.log("salman")
+    const hamburger =document.querySelector(".hamburger");
+    const navMenu =document.querySelector(".nav-menu-1")
+
+
+    hamburger.addEventListener("click",()=>{
+        hamburger.classList.toggle("active");
+        navMenu.classList.toggle("active");
+    })
+
+    document.querySelectorAll(".nav-link-1").forEach(n => n.addEventListener("click",()=>{
+        hamburger.classList.remove("active")
+        navMenu.classList.remove("active")
+    }))
+</script>
 </body>
 </html>
