@@ -3,12 +3,33 @@
     margin: 0;
 }
 
+body::-webkit-scrollbar{
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    background:  #232F3E;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #FE500A;
+    border-radius: 5px;
+}
+
 main {
-    border: 2px solid red;
-    background-color: rgba(240, 240, 243, 0.76);
+    /*border: 2px solid red;*/
+    background-color: #0064DE
 }
 
 
+
+/*nav*/
+
+
+
+/*nav*/
+
+
+/*-----------------------------------------------*/
 /*<!--section-main-page-->*/
 .project-main-page {
     width: 100%;
@@ -85,6 +106,7 @@ main {
     font-size: 34px;
     font-weight: bold;
     color: #0d6efd;
+    width: 100%;
 }
 
 .project-main-page-inner > div:nth-child(3) {
@@ -102,6 +124,7 @@ main {
     padding-left: 100px;
     font-size: 26px;
     color: #837e7e;
+    /*width: 100%;*/
 }
 
 .project-main-page-inner > div:nth-child(4) {
@@ -119,6 +142,8 @@ main {
     padding-left: 296px;
     font-size: 26px;
     color: #837e7e;
+    /*width: 100%;*/
+
 }
 
 .project-main-page-inner > div:nth-child(5) {
@@ -137,27 +162,26 @@ main {
     right: 16px;
     font-size: 26px;
     color: #837e7e;
+
 }
 
 /*<!--section-main-page-->*/
 
+/*---------------------------------------------------*/
+
+/*<!--section-main-page-->*/
 .project-page-1{
+    position: relative;
     width: 100%;
-    height: 860px;
-    border: 2px solid black;
+    height: 600px;
+    /*border: 2px solid black;*/
 
     display: flex;
     flex-direction: column;
 
 }
 
-.Assignment{
-    flex: 1;
-    border: 2px solid brown;
-    display: flex;
-    flex-direction: row;
 
-}
 .assigment-heading{
     width: 25%;
     height: 40px;
@@ -169,15 +193,398 @@ main {
     position: relative;
     width: 100%;
     padding: 5px 0 0 70px;
+    font-size: 30px;
 }
+.assigment-heading-inner{
+    /*border: 5px solid red;*/
+    height: 77px;
+
+
+}
+.assigment-heading-inner>h2{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+
+
+.Assignment{
+    position: relative;
+    flex: 1;
+    /*border: 2px solid brown;*/
+    display: flex;
+    flex-direction: row;
+
+}
+
+
 
 .assigment-inner{
     flex: 1;
-    border: 2px solid black;
+    /*border: 2px solid black;*/
+    display: flex;
+    flex-direction: column;
+
 }
-.assigment-inner>h1{
-    border: 2px solid red;
+
+.assigment-inner-heading{
+    position: relative;
+    width: 100%;
+    /*border: 1px solid pink;*/
 }
+.assigment-inner-heading>h3{
+    /*border: 2px solid red;*/
+    position: relative;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+    /*border-bottom: 2px;*/
+
+
+}
+ .nav-bar{
+    /*border: 1px solid red;*/
+
+}
+.nav-item{
+    padding: 5px 0 10px 140px;
+    text-decoration: none;
+    list-style: none;
+
+
+
+}
+.nav-item:nth-child(1){
+    padding-top: 28px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: capitalize;
+
+
+}
+.nav-link:hover{
+    color: #FE500A;
+    font-size: 22px;
+}
+.nav-link>i{
+    padding-right: 6px;
+    color: #FE500A;
+
+}
+.page-2{
+    position: relative;
+    margin-top: 40px;
+}
+
+/*<!--section-main-page-->*/
+
+
+/*----------------------------------------*/
+
+
+/*<!--section git hub link and project-->*/
+.hit-pag{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.git-page-link{
+    background-color: #FE500A;
+    text-decoration: none;
+    height: 35px;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+/*<!--section git hub link and project-->*/
+
+
+
+/*============================Media query========================*/
+
+@media all and (max-width: 320px) {
+    main {
+        /*border: 2px solid yellow;*/
+    }
+
+    .block-name {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    .qu1 {
+        font-size: 13px;
+        padding-left: 22px;
+    }
+
+    .qu2 {
+        font-size: 13px;
+        padding-left: 38px;
+    }
+
+    .qu3 {
+        font-size: 12px;
+    }
+    .project-page-1{
+        height: 1255px;
+    }
+
+    .assigment-heading{
+        width: 63%;
+    }
+    .assigment-heading>h2 {
+        color: white;
+        position: relative;
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 20px;
+    }
+
+    .assigment-heading-inner>h2 {
+        font-size: 22px;
+    }
+
+    .Assignment{
+        flex-direction: column;
+    }
+
+
+
+
+
+}
+
+@media all and (min-width: 320px) and (max-width: 376px) {
+    main {
+        /*border: 2px solid yellow;*/
+    }
+
+    .block-name {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    .qu1 {
+        font-size: 13px;
+        padding-left: 22px;
+    }
+
+    .qu2 {
+        font-size: 13px;
+        padding-left: 38px;
+    }
+
+    .qu3 {
+        font-size: 12px;
+    }
+    .project-page-1{
+        height: 1255px;
+    }
+
+    .assigment-heading{
+        width: 63%;
+    }
+    .assigment-heading>h2 {
+        color: white;
+        position: relative;
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 20px;
+    }
+
+    .assigment-heading-inner>h2 {
+        font-size: 22px;
+    }
+
+    .Assignment{
+        flex-direction: column;
+    }
+
+
+}
+
+@media all and (min-width: 376px) and (max-width: 426px) {
+    main {
+        /*border: 2px solid yellow;*/
+    }
+
+    .block-name {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    .qu1 {
+        font-size: 13px;
+        padding-left: 22px;
+    }
+
+    .qu2 {
+        font-size: 13px;
+        padding-left: 38px;
+    }
+
+    .qu3 {
+        font-size: 12px;
+    }
+    .project-page-1{
+        height: 1255px;
+    }
+
+    .assigment-heading{
+        width: 63%;
+    }
+    .assigment-heading>h2 {
+        color: white;
+        position: relative;
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 20px;
+    }
+
+    .assigment-heading-inner>h2 {
+        font-size: 22px;
+    }
+
+    .Assignment{
+        flex-direction: column;
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px) {
+    main {
+        /*border: 2px solid yellow;*/
+    }
+
+    .block-name {
+        font-size: 18px;
+        padding-left: 18px;
+        padding-top: 10px;
+    }
+
+    .qu1 {
+        font-size: 18px;
+        padding-left: 53px;
+    }
+
+    .qu2 {
+        font-size: 18px;
+        padding-left: 191px;
+    }
+
+    .qu3 {
+        font-size: 16px;
+    }
+
+    .project-page-1 {
+        height: 1375px;
+    }
+
+    .assigment-heading {
+        width: 63%;
+    }
+
+    .assigment-heading > h2 {
+        color: white;
+        position: relative;
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 20px;
+    }
+
+    .assigment-heading-inner > h2 {
+        font-size: 22px;
+    }
+
+    .Assignment {
+        flex-direction: column;
+    }
+
+    .nav-link {
+        font-size: 25px
+    }
+
+    .nav-item {
+        padding: 5px 0 10px 234px;
+    }
+
+}
+
+
+
+
+
+
+
+@media all and (min-width: 769px) and (max-width: 1024px)   {
+    main {
+        /*border: 2px solid yellow;*/
+    }
+
+    .block-name {
+        font-size: 21px;
+        padding-left: 41px;
+        padding-top: 10px;
+    }
+
+    .qu1 {
+        font-size: 20px;
+        padding-left: 127px;
+    }
+
+    .qu2 {
+        font-size: 20px;
+        padding-left: 257px;
+    }
+
+    .qu3 {
+        font-size: 20px;
+    }
+    .project-page-1{
+        height: 880px;
+    }
+
+    .assigment-heading{
+        width: 63%;
+    }
+    .assigment-heading>h2 {
+        color: white;
+        position: relative;
+        width: 100%;
+        padding: 5px 0 0 15px;
+        font-size: 20px;
+    }
+
+    .assigment-heading-inner>h2 {
+        font-size: 22px;
+    }
+
+    /*.Assignment{
+        flex-direction: column;
+    }*/
+
+}
+/*============================Media query========================*/
+
 
 
 
