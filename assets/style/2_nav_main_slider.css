@@ -276,6 +276,7 @@ a{
 @media all and (max-width: 320px) {
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
+        height: 50vh;
     }
     .profile-img{
       /*border: 1px solid red!important;*/
@@ -283,9 +284,11 @@ a{
     }
     .social-outer {
         left: 28px;
+        top: 445px !important;
     }
     .font-page-outer>a{
         left: 65px!important;
+        top: 162px!important;
     }
     .skills-technology{
         width: 93%!important;
@@ -357,6 +360,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
+        height: 50vh;
     }
 
 
@@ -521,6 +525,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
+        height: 50vh;
     }
 
     /*nav bar*/
@@ -680,6 +685,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
+        height: 50vh;
     }
 
     /*nav bar*/
