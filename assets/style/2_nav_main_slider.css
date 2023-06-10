@@ -276,7 +276,7 @@ a{
 @media all and (max-width: 320px) {
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
-        height: 50vh;
+        height: 100vh;
     }
     .profile-img{
       /*border: 1px solid red!important;*/
@@ -360,7 +360,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
-        height: 50vh;
+        height: 100vh;
     }
 
 
@@ -525,7 +525,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
-        height: 50vh;
+        height: 100vh;
     }
 
     /*nav bar*/
@@ -685,7 +685,7 @@ a{
     /*------------slide-context*------------------*/
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
-        height: 50vh;
+        height: 100vh;
     }
 
     /*nav bar*/

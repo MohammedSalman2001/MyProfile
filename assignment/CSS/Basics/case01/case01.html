@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 01 Css</title>
+    <link rel="stylesheet" href="../../../../assets/styleSheet/normalize.css">
+    <style>
+
+        section {
+            /*width: 50vw;*/
+        }
+
+        /*1 Box*/
+        body > section:first-child > div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: red;
+        }
+
+        /*2 Box*/
+        body > section:nth-child(2) > div {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: green;
+        }
+
+        /*3 Box*/
+        body > section:nth-child(3) > div {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: yellowgreen;
+        }
+
+        /*4 Box*/
+        body > section:nth-child(4) > div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 50vw;
+            height: 50vh;
+            background-color: deeppink;
+        }
+
+        /*Middle Box*/
+        body > section:nth-child(5) > div:first-child {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            width: 20vw;
+            height: 40vh;
+            background-color: white;
+        }
+
+        /*Middle Box-circle*/
+        body > section:nth-child(5) > div > div {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            top: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: red;
+            border-radius: 5em;
+        }
+
+
+        .whiteCircle {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 10vw;
+            height: 20vh;
+            background-color: white;
+            border-radius: 5em;
+        }
+
+        .insideBox {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+            width: 5vw;
+            height: 10vh;
+            background-color: red;
+        }
+
+        /*=========Corner Circles===========*/
+
+        /*Section 01*/
+        /*Left Circle*/
+        body > section:nth-child(1) > div > div:nth-child(2) {
+
+        }
+        /*Right Circle*/
+        body > section:nth-child(1) > div > div:nth-child(3) {
+
+        }
+
+        .leftUpCircle{
+            position: absolute;
+            width: 10vw;
+            height: 20vh;
+            top: 0;
+            left: 0;
+            border-radius: 0 0 100% 0;
+            background-color: white;
+        }
+        .RightUpCircle{
+            position: absolute;
+            width: 10vw;
+            height: 20vh;
+            right: 0;
+            /*left: 0;*/
+            border-radius: 0 0 0 100%;
+            background-color: white;
+        }
+
+        .leftDownCircle{
+            position: absolute;
+            width: 10vw;
+            height: 20vh;
+            bottom: 0;
+            left: 0;
+            border-radius: 0 100% 0 0;
+            background-color: white;
+        }
+        .RightDownCircle{
+            position: absolute;
+            width: 10vw;
+            height: 20vh;
+            right: 0;
+            bottom: 0;
+            border-radius: 100% 0 0 0;
+            background-color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+
+<main>
+
+    <!--first Box-->
+    <section>
+        <div>
+            <!--circle-->
+            <div class="whiteCircle">
+                <!--Box-->
+                <div class="insideBox"></div>
+
+            </div>
+
+            <!--left Corner-->
+            <div class="leftUpCircle"></div>
+
+            <!--Right Corner-->
+            <div class="RightUpCircle"></div>
+        </div>
+    </section>
+
+    <!--2 Box-->
+    <section>
+        <div>
+            <!--circle-->
+            <div class="whiteCircle">
+                <!--Box-->
+                <div class="insideBox"></div>
+            </div>
+
+            <!--left Corner-->
+            <div class="leftUpCircle"></div>
+
+            <!--Right Corner-->
+            <div class="RightUpCircle"></div>
+        </div>
+    </section>
+
+    <!--3 Box-->
+    <section>
+        <div>
+            <!--circle-->
+            <div class="whiteCircle">
+                <!--Box-->
+                <div class="insideBox"></div>
+            </div>
+
+            <!--left Corner-->
+            <div class="leftDownCircle"></div>
+
+            <!--Right Corner-->
+            <div class="RightDownCircle"></div>
+        </div>
+    </section>
+
+    <!--4 Box-->
+    <section>
+        <div>
+            <!--circle-->
+            <div class="whiteCircle">
+                <!--Box-->
+                <div class="insideBox"></div>
+            </div>
+
+            <!--left Corner-->
+            <div class="leftDownCircle"></div>
+
+            <!--Right Corner-->
+            <div class="RightDownCircle"></div>
+        </div>
+    </section>
+
+    <!--middle Box-->
+    <section>
+        <!--Box-->
+        <div>
+            <!--Circle-->
+            <div></div>
+        </div>
+    </section>
+
+
+</main>
+
+
+
+
+</body>
+</html>
