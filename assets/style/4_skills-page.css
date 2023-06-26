@@ -185,6 +185,7 @@
     .skills-wrapper{
         /*border: 2px solid red;*/
         height: 887px;
+        overflow-x: hidden;
     }
     .heading-name{
         height: 73px;
@@ -255,6 +256,7 @@
     .skills-wrapper{
         /*border: 2px solid red;*/
         height: 887px;
+        overflow-x: hidden;
     }
     .heading-name{
         height: 73px;
@@ -329,6 +331,7 @@
         left: 85px;
         width: 83%;
         height: 77%;
+        overflow-x: hidden;
     }
     .skills-technology {
 

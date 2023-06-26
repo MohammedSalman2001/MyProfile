@@ -277,6 +277,7 @@ a{
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
         height: 100vh;
+        overflow-x: hidden;
     }
     .profile-img{
       /*border: 1px solid red!important;*/
@@ -361,6 +362,7 @@ a{
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
         height: 100vh;
+        overflow-x: hidden;
     }
 
 
@@ -526,6 +528,7 @@ a{
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
         height: 100vh;
+        overflow-x: hidden;
     }
 
     /*nav bar*/
@@ -686,6 +689,7 @@ a{
     .nav-main-slider{
         /*border: 2px solid red;!important;*/
         height: 100vh;
+        overflow-x: hidden;
     }
 
     /*nav bar*/

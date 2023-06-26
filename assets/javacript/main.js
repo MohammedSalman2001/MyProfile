@@ -18,3 +18,10 @@ document.querySelectorAll(".nav-link").forEach(n => n.addEventListener("click",(
     hamburger.classList.remove("active")
     navMenu.classList.remove("active")
 }))
+
+
+let loader=document.getElementById('pre-loader');
+
+window.addEventListener("load",function (){
+    loader.style.display="none";
+})

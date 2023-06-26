@@ -158,6 +158,7 @@
         /*border: 2px solid green;*/
         left: 37px;
         flex-direction: column;
+        overflow-x: hidden;
     }
     .about-inner{
         /*border: 2px solid black;*/
@@ -236,6 +237,7 @@
         /*border: 2px solid green;*/
         left: 37px;
         flex-direction: column;
+        overflow-x: hidden;
     }
     .about-inner{
         /*border: 2px solid black;*/
@@ -314,6 +316,7 @@
         top: 96px;
         left: 51px;
         display: flex;
+        overflow-x: hidden;
     }
     .about-inner {
         flex: 1;

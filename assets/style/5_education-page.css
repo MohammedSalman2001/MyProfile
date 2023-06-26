@@ -107,6 +107,7 @@
 
     .education-wrapper{
         height: 1113px;
+        overflow-x: hidden;
     }
     .education-wrapper-outer{
         top: 20px;
@@ -155,6 +156,7 @@
 */
     .education-wrapper{
         height: 1113px;
+        overflow-x: hidden;
     }
     .education-wrapper-outer{
         top: 20px;
@@ -178,6 +180,7 @@
 
     .education-wrapper{
         height: 601px;
+        overflow-x: hidden;
     }
     .education-wrapper-inner{
         position: absolute;

@@ -143,6 +143,7 @@
     .project-wrapper{
         /*border:1px solid red;*/
         height: 485px;
+        overflow-x: hidden;
     }
     .project-wrapper-inner{
         /*border: 2px solid black;*/
@@ -175,6 +176,7 @@
     .project-wrapper{
         /*border:1px solid red;*/
         height: 485px;
+        overflow-x: hidden;
     }
     .project-wrapper-inner{
         /*border: 2px solid black;*/
@@ -208,6 +210,7 @@
     .project-wrapper{
         /*border:1px solid red;*/
         height: 485px;
+        overflow-x: hidden;
     }
     .project-wrapper-inner{
         /*border: 2px solid black;*/
